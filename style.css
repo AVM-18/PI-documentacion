@@ -1,0 +1,35 @@
+/* ===== CSS Desgin ===== */
+
+
+ h2 {
+    background-color: rgb(29, 106, 147);
+    color: white;
+  }
+  .Paso1 {
+    width: 600px;
+    height: 400px;
+  }
+  .Paso2 {
+    width: 600px;
+    height: 400px;
+  }
+
+  .Paso3 {
+    width: 600px;
+    height: 400px;
+  }
+
+  .Paso4 {
+    width: 700px;
+    height: 500px;
+  }
+
+  .Paso4add {
+     width: 700px;
+    height: 500px;
+  }
+
+  .Resultado {
+    width: 400px;
+    height: 300px;
+  }
