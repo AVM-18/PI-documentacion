@@ -1,8 +1,99 @@
 /* ===== CSS Desgin ===== */
+/* ===== Barra menu ===== */
+.site-header {
+    background-color: var(--color-blanco);
+    border-bottom: 1px solid #83a6bc;
+    padding: 1.2rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    background-color: rgba(117, 163, 173, 0.998);
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-primario);
+}
+
+.site-header nav a {
+    color: var(--color-texto);
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: 500;
+    position: relative;
+    transition: var(--transicion-suave);
+}
+
+.site-header nav a:hover {
+    color: var(--color-acento);
+    background-color: #b2cde8;
+}
+
+/* ===== Presentación ===== */
+.tarjeta-presentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+  background: linear-gradient(135deg, #f1fcff, #b2cde8);
+  padding: 2rem;
+}
+
+.tarjeta-contenido {
+  background-color: white;
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta-contenido:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
 
 
+.tarjeta-contenido h2C {
+  color: #206991;
+  font-size: 1.6rem;
+  margin: 0.5rem 0;
+}
+
+.tarjeta-contenido p {
+  color: #333;
+  font-size: 1rem;
+  margin: 0.3rem 0;
+}
+
+
+
+.boton-contacto:hover {
+  background-color: #205b72;
+}
+
+
+
+/* ===== Diseño 3D ====== */
+.fondo {
+    background: linear-gradient(135deg, #f1fcff, #b2cde8);
+}
  h2 {
-    background-color: rgb(29, 106, 147);
+    background-color: rgb(32, 105, 145);
     color: white;
   }
   .Paso1 {
@@ -23,13 +114,34 @@
     width: 700px;
     height: 500px;
   }
-
+  
   .Paso4add {
      width: 700px;
     height: 500px;
   }
 
+  .Paso5 {
+    width: 700px;
+    height: 500px;
+  }
+
+  .Paso6 {
+    width: 700px;
+    height: 500px;
+  }
+
+  .Paso7 {
+    width: 600px;
+    height: 500px;
+  }
+
+  .Paso8 {
+    width: 600px;
+    height: 400px;
+  }
+
+
   .Resultado {
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
   }
