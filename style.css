@@ -1,4 +1,23 @@
 /* ===== CSS Desgin ===== */
+.fondo {
+    background: linear-gradient(135deg, #f1fcff, #b2cde8);
+}
+.cuadro-texto {
+    width: 800px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    padding: 20px 25px;
+    margin-right: 50px;
+    text-align: right; /* alinea el texto dentro del cuadro */
+    border-left: 5px solid #4a90e2; /* toque de color elegante */
+  }
+
+  .texto p {
+    color: #666;
+    line-height: 1.6;
+  }
+
 /* ===== Barra menu ===== */
 .site-header {
     background-color: var(--color-blanco);
@@ -89,9 +108,6 @@
 
 
 /* ===== Diseño 3D ====== */
-.fondo {
-    background: linear-gradient(135deg, #f1fcff, #b2cde8);
-}
  h2 {
     background-color: rgb(32, 105, 145);
     color: white;
@@ -140,8 +156,94 @@
     height: 400px;
   }
 
+  .Paso9 {
+    width: 800px;
+    height: 400px;
+  }
+
+  .Paso10 {
+    width: 600px;
+    height: 400px;
+  }
+
+  .Paso11 {
+    width: 800px;
+    height: 400px;
+  }
 
   .Resultado {
     width: 600px;
     height: 400px;
   }
+
+/* ===== Corte Laser ====== */
+    .Paso1CL {
+    width: 600px;
+    height: 400px;
+    }
+
+    .Paso2CL {
+    width: 300px;
+    height: 400px;
+    }
+
+    .Paso2CLadd {
+    width: 600px;
+    height: 400px;
+    }
+
+    .Paso3CL {
+    width: 600px;
+    height: 400px;
+    }
+
+    .Paso4CL {
+    width: 500px;
+    height: 400px;
+    }
+
+    .Corte {
+    width: 700px;
+    height: 500px;
+    }
+
+    .Eq {
+    width: 500px;
+    height: 300px;
+    }
+
+    .ResCL {
+    width: 400px;
+    height: 450px;
+    }
+
+/* ===== PCB ===== */
+    .Circuito {
+    width: 800px;
+    height: 450px;
+    }
+
+    .PCBmal {
+    width: 800px;
+    height: 450px;
+    }
+
+    .PCBbien {
+    width: 800px;
+    height: 450px;
+    }
+
+    .Soldar {
+    width: 800px;
+    height: 450px;
+    }
+
+    .Estaño {
+    width: 800px;
+    height: 450px;
+    }
+
+    .ResPCB {
+    width: 800px;
+    height: 450px;
+    }
